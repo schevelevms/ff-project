@@ -1,5 +1,5 @@
 # FF-project
-Стэк: Nuxt4, Pinia, VeeValidate, yup, SSCC, Firebase.
+Стэк: Nuxt4, Pinia, VeeValidate, yup, SCSS, Firebase.
 
 Разработано приложение, аналог известного "Locket", в котором можно делиться фотографиями с другими пользователями.
 
