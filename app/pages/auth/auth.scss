@@ -1,0 +1,66 @@
+.form{
+    max-width: 400px;
+    padding: 30px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto 40px auto;
+    .errorMessage{
+        color: rgb(219, 0, 0);
+        font-size: 17px;
+        margin-bottom: 15px;
+        font-family: "LINE Seed JP", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+    }
+    .form-btn:disabled {
+        cursor: not-allowed;
+        opacity: 1!important;
+        background: #eee!important;
+        border-color: #ddd!important;
+        color: #999!important;
+    }
+    .form-input{
+        display: flex;
+        margin: 5px;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        .error{
+            color: rgb(219, 0, 0);
+        }
+        .invalid{
+            border-bottom: 2px solid rgb(219, 0, 0);
+        }
+        input{
+            padding: 7px 5px;
+            border: none;
+            border-bottom: 2px solid grey;
+            font-size: 25px;
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+    .form-avatar{
+        width: 90px;
+        margin: 15px 0 20px 0;
+    }
+    .form-btn{
+        margin-top: 15px;
+        width: 100%;
+        padding: 9px 7px;
+        color: #fff;
+        background-color: #202020;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+    .form-title{
+        letter-spacing: 1px;
+    }
+}
+.link{
+    text-align: center;
+    font-size: 15px;
+}

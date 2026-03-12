@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=LINE+Seed+JP&display=swap');
+$bck_color: #FFFFFF;
+$main_color: #000000;
+$secondary_color: #767676;
+
+*{
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 500;
+  &::selection { color: white; background-color: $secondary_color; }
+    a{
+        text-decoration: none;
+        color: $main_color;
+        transition: 0.3s ease;
+        font-size: 19px;
+        cursor: pointer;
+        font-weight: 300;
+        &:hover{
+            color: $secondary_color;
+        }
+    }
+    li{
+        list-style: none;
+    }
+    button{
+        cursor: pointer;
+        border: none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $bck_color;
+    color: $main_color;
+    font-size: 18px;
+}
